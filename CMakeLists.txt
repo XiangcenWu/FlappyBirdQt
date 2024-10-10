@@ -17,11 +17,12 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 
 add_executable(
-    ${PROJECT_NAME} 
+    ${PROJECT_NAME}
     assets/resources.qrc
     main.cpp
     src/scene.cpp
     src/widget.cpp
+    src/pillaritem.cpp
 )
 target_include_directories(${PROJECT_NAME} PRIVATE src)
 target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets)
