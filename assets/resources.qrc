@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Game Objects/background-day.png</file>
+        <file>Game Objects/base.png</file>
+        <file>Game Objects/pipe-green.png</file>
+
+    </qresource>
+</RCC>
